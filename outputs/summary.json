@@ -1,0 +1,78 @@
+{
+  "dqn": {
+    "best": {
+      "mean_score": {
+        "mean": 773.1325,
+        "std_across_training_seeds": 984.8344569985692
+      },
+      "median_score": {
+        "mean": 819.375,
+        "std_across_training_seeds": 1241.0865115561714
+      },
+      "early_failure_rate": {
+        "mean": 0.11750000000000001,
+        "std_across_training_seeds": 0.15152007567755943
+      },
+      "worst_decile_mean": {
+        "mean": 86.375,
+        "std_across_training_seeds": 161.05395317511872
+      }
+    },
+    "final": {
+      "mean_score": {
+        "mean": 579.4499999999999,
+        "std_across_training_seeds": 1067.5419301367042
+      },
+      "median_score": {
+        "mean": 688.125,
+        "std_across_training_seeds": 1310.6381635803732
+      },
+      "early_failure_rate": {
+        "mean": 0.1375,
+        "std_across_training_seeds": 0.13073510112692255
+      },
+      "worst_decile_mean": {
+        "mean": 61.974999999999994,
+        "std_across_training_seeds": 116.82198351908485
+      }
+    }
+  },
+  "ppo": {
+    "best": {
+      "mean_score": {
+        "mean": 398.74,
+        "std_across_training_seeds": 426.70060596785345
+      },
+      "median_score": {
+        "mean": 308.25,
+        "std_across_training_seeds": 356.617792601547
+      },
+      "early_failure_rate": {
+        "mean": 0.0325,
+        "std_across_training_seeds": 0.01892969448600091
+      },
+      "worst_decile_mean": {
+        "mean": 12.1,
+        "std_across_training_seeds": 4.311225657126598
+      }
+    },
+    "final": {
+      "mean_score": {
+        "mean": 156.2475,
+        "std_across_training_seeds": 85.39807662744323
+      },
+      "median_score": {
+        "mean": 108.0,
+        "std_across_training_seeds": 51.8411033833193
+      },
+      "early_failure_rate": {
+        "mean": 0.0675,
+        "std_across_training_seeds": 0.01707825127659933
+      },
+      "worst_decile_mean": {
+        "mean": 6.7749999999999995,
+        "std_across_training_seeds": 1.774589154330282
+      }
+    }
+  }
+}
