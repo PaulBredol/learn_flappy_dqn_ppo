@@ -1,7 +1,5 @@
 # Flappy Bird: Vergleich von DQN und PPO
 
-Dieses Projekt vergleicht Double DQN mit Prioritized Experience Replay (PER) und PPO in einer Flappy-Bird-Umgebung. Beide Verfahren erhalten 15 direkte Zustandswerte und verwenden acht Spielinstanzen pro gemeinsamem Modell.
-
 ## Dateien im Hauptordner
 
 | Datei | Aufgabe |
@@ -16,26 +14,6 @@ Dieses Projekt vergleicht Double DQN mit Prioritized Experience Replay (PER) und
 | `outputs/` | Ergebnisse von vier Trainingsläufen pro Verfahren; Details stehen in `outputs/README.md`. |
 
 Die drei DQN-Hilfsmodule sind erforderlich und werden importiert. Sie werden nicht einzeln gestartet.
-
-## Ausführung
-
-Python 3.13 in einer virtuellen Umgebung verwenden und die Abhängigkeiten installieren:
-
-```powershell
-python -m pip install -r requirements_flappy.txt
-```
-
-Kurzer Funktionstest ohne Weights & Biases:
-
-```powershell
-python run_flappy_comparison.py --smoke-test --wandb-mode disabled
-```
-
-Neuen vollständigen Vergleich starten:
-
-```powershell
-python run_flappy_comparison.py --wandb-mode disabled
-```
 
 Der vollständige Vergleich ist rechenintensiv. Zum Nachvollziehen der abgegebenen Ergebnisse genügt zunächst das Lesen von `outputs/summary.md`; erneutes Training ist dafür nicht erforderlich. Weitere Optionen zeigt `python run_flappy_comparison.py --help`.
 
